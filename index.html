@@ -77,9 +77,14 @@
                 
         </div>
         <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
-         <input type="text" name="one-line" placeholder="Новый скилл">
+        <form method="get">
+            <label>
+              <input type="text" placeholder="Новый скилл">
+              <input type="button" value="добавить">
+            </label>
+        </form>
+        <hr>
         <!-- 6) Создай здесь кнопку “Добавить” -->
-         <input type="button" value="добавить"><hr>
         <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
         <section>
         <table data-cy="hw-about-table-pre" border="1">
